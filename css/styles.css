@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Map */
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #ffbb8d;
+}
+ul{
+    list-style: none;
+    
+}
+li{
+    font-weight: bold;
+    color: #7b223f;
+}
+a {
+    text-decoration: none;
+}
+.btn{
+    color: whitesmoke;
+}
+.hola{
+    background-color: #fc036b;
+}
+
+header {
+    
+    /* background-image: url(../images/heroNosotros-optimizado.jpg); */
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+.nosotros-contenido {
+    
+    
+    color: #7b223f;
+    text-align: center;
+    padding: 20px;
+}
+.nosotros-contenido h1 {
+    font-size: 9vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.nosotros-contenido h2 {
+    font-size: 6vmin;
+}
+.nosotros-contenido .linea {
+    width: 150px;
+    height: 4px;
+    background-color: #7b223f;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.nosotros-contenido p {
+    padding-top: 15px;
+}
+.nosotros-contenido .boton {
+    padding: 8px 15px;
+    background: #fc036b;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+
+/*Trabajos practicos*/
+
+.trabajosPracticos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding:  15px 0;
+    color: #7b223f;
+    
+}
+
+.trabajosPracticos .linea {
+    width: 150px;
+    height: 4px;
+    background-color: #fc036b;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.icon-drive{
+    width: 20px;
+    height: 20px;
+    margin-top: 5.5px;
+    margin-right: 10px;
+}
+
+.btn {
+    background: #dc4955;
+    
+}
+.linea {
+    width: 150px;
+    height: 4px;
+    background-color: #fc036b;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.card{
+    background-color:#ff7d75;
+}
+.card p{
+    font-weight: bold;
+}
+.card-body h5{
+    font-weight:bold;
+}
+.card-header {
+    font-weight: bold;
+}
+
+.accordion-button{
+    background-color: #dc4955;
+    font-weight: bold;
+}
+.accordion-item {
+    background-color:#ffbb8d;
+}
+
+.texto h4{
+    font-weight: bold;
+    color: #7b223f;
+}
+
+.text-break{
+    font-weight: bold;
+}
